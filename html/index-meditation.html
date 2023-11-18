@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style-meditation.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon_io/favicon-32x32.png">
+    <title>Meditação • Calmamente</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="../index.html" class="logo">calma_mente</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="../index.html">home</a></li>
+                <li class="nav-item"><a href="../html/index-about.html">sobre</a></li>
+                <li class="nav-item"><a href="../html/index-meditation.html">meditação</a></li>
+                <li class="nav-item"><a href="../html/index-notes.html">suas notas</a></li>
+            </ul>
+            <div class="menu-bar">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="input">
+            <label>Selecione a quantidade</label>
+            <select class="breath-input">
+                <option value="3">3 Sequências</option>
+                <option value="5">5 Sequências</option>
+                <option value="7">7 Sequências</option>
+    
+            </select>
+        </div>
+        <div class="circle-wrap">
+            <div class="circle-outline"></div>
+            <div class="circle-progress"></div>
+    
+        </div>
+        <p class="breaths"> Respirações restantes: <span class="breaths-text">3</span></p>
+        <p class="instructions">Você está pronto para iniciar a sessão?</p>
+        <button class="start">Iniciar</button>
+        <div class="spotify-player">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1E4nmDeUld5SNN?utm_source=generator&theme=0" width="100%" height="90" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+    </main>
+
+    <script src="../js/script-meditation.js"></script>
+</body>
+</html>
