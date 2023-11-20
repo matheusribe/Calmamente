@@ -167,6 +167,58 @@ h1 {
     transition: all 0.3s;
 }
 
+/* footer*/
+footer {
+    width: 100%;
+    color: var(--color-neutral-40);
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+#footer_content {
+    background-color: var(--color-neutral-10);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_contacts h1 {
+    margin-bottom: 0.2rem;
+    line-height: 1.2;
+    font-size: 2.618em;
+}
+
+#footer_contacts p {
+    margin-bottom: 0.75rem;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.footer-list .footer-link {
+    color: #3f5a43;
+    transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover {
+    color: #202d22;
+}
+
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+
 /* Responsivo */
 
 @media (max-width: 850px) {
